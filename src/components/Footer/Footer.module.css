@@ -1,0 +1,37 @@
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: var(--third-color);
+}
+
+.footer .socials {
+	width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.socials a {
+    box-shadow: 0 0 5px var(--secondary-color);
+}
+
+.footer .copyright {
+    width: 90%;
+    margin: .5rem auto;
+}
+
+.footer .copyright p {
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.footer .copyright p span {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}

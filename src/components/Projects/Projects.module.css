@@ -1,0 +1,15 @@
+.Projects {
+    padding: .5rem;
+}
+
+.Projects .details {
+    font-size: 18px;
+    line-height: 1.2em;
+    margin: .5rem auto;
+    padding: .5rem;
+}
+
+.projectsItems {
+    width: 100%;
+    height: auto;
+}

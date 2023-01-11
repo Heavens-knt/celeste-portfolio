@@ -1,0 +1,77 @@
+ /*contour animation container*/
+ .projectItem {
+    width: 98%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 10px;
+    padding: .2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--third-color);
+    /*box-shadow: 0 0 5px var(--primary-color);*/
+    overflow: hidden;
+}
+
+/*sections red and blue that rotate behind the container*/
+.projectItem::after, .projectItem::before {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    animation: animate 4s linear infinite;
+}
+
+.projectItem::after {
+    background: conic-gradient(transparent, transparent, transparent, #a23);
+}
+
+/*	
+	* set the bg-color for the rotated section 
+    * and delay the animatin so that their positions will be opposite
+*/
+.projectItem::before {
+    animation-delay: -2s;
+    background: conic-gradient(transparent, transparent, transparent, #0a33ff);
+
+}
+
+/*the rotation animation*/
+
+@keyframes animate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.projectItem .container {
+    inset: 0;
+    padding: .5rem;
+    border-radius: 10px;
+    z-index: 1;
+    color: var(--secondary-color);
+    background-color: var(--third-color);
+}
+
+.projectItem h3 {
+    margin: .5rem;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+
+.projectItem .projectImg {
+    width: 100%;
+
+}
+
+.projectImg img {
+    width: 100%;
+    border-radius: 10px;
+    margin: .5rem auto;
+}

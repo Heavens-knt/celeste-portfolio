@@ -1,0 +1,42 @@
+.Skills .details {
+    width: 95%;
+    height: auto;
+    margin: .3rem auto;
+    font-size: 16px;
+}
+
+.Skills .details p {
+    margin: .1rem;
+}
+
+.Skills .progress {
+    width: 100%;
+    height: auto;
+    padding: .5rem;
+    background-color: var(--third-color);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.Skills .progress .left, .Skills .progress .right {
+    width: 95%;
+    height: auto;
+    min-height: 300px;
+    margin: .5rem auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.Skills .progress .left img, .Skills .progress .right img {
+	width: 100%;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: white;
+}
+
+.SkillsDetails {
+    width: 100%;
+    height: auto;
+    background-color: var(--secondary-color);
+}

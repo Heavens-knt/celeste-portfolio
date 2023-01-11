@@ -1,0 +1,13 @@
+.social {
+    width: 35px;
+    height: 35px;
+    /*display: grid;*/
+    place-content: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px var(--third-color);
+}
+
+.social img {
+    width: 100%;
+}
+

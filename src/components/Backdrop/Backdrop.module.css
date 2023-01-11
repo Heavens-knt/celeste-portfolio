@@ -1,0 +1,15 @@
+.backdrop {
+    width: 40vw;
+    height: calc(100vh - 70px);
+    background-color: rgba(0, 0, 0, .7);
+    position: fixed;
+    top: 70px;
+    right: 0;
+    transform: translateX(100vw);
+    transition-duration: 1.2s;
+    z-index: 4;
+}
+
+.active {
+    transform: translateX(0);
+}
