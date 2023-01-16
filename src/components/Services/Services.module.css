@@ -9,7 +9,7 @@
     min-height: 400px;
     margin: .5rem auto;
     border-radius: 10px;
-    border-bottom: 2px solid darkcyan;
+    border-bottom: 2px solid var(--third-color);
     /*animation: borders 4s ease-in 10ms infinite normal backwards;*/
 
 }
@@ -17,6 +17,7 @@
 .services .title {
     margin: 1rem auto;
     text-align: center;
+    color: var(--fourth-color);
 }
 
 .services .details {
@@ -28,7 +29,7 @@
 .services .details .img {
     width: 98%;
     margin: .5rem auto;
-    background-color: darkcyan;
+    background-color: var(--third-color);
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -48,10 +49,10 @@
     display: inline-block;
     padding: .5rem 1rem;
     font-size: large;
-    border: 1px solid darkcyan;
+    border: 1px solid var(--third-color);
     margin-top: 1rem;
     border-radius: 10px;
-	color: darkcyan;
+	  color: var(--third-color);
 }
 
 @keyframes borders {

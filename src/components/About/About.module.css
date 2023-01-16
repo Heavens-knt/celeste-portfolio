@@ -5,21 +5,13 @@
 .About .content {
     width: 100%;
     height: 80vh;
-	position: relative;
+	  position: relative;
     margin-bottom: .5rem;
     background-image: url(../../assets/imag.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
 }
-
-/*.About .content img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: .5rem auto;
-    border-radius: 20px;
-}*/
 
 .About .content .above{
     width: 95%;
@@ -35,20 +27,18 @@
 
 .About .content .above .active {
   opacity: 1;
-  margin: 1rem;
-  transform: translateX(0px) translateY(0px);
 }
 
 .About .content .above h2, .About .content .above p {
-  opacity: 0;
+  opacity:0;
+
 }
 
 .About .content .above h2 {
     color: var(--secondary-color);
     transition-delay: .25s;
-    transition-duration: .5s;
+    transition-duration: 1s;
     transition-timing-function: ease-out();
-    transform: translateX(10px) translateY(10px);
 }
 
 .About .content .above .aboutSkills{
@@ -59,11 +49,10 @@
     border-radius: 5px;
     padding: 2px;
     background-color: rgba(0, 0, 0, .5);
-    color: var(--primary-color);
+    color: var(--fourth-color);
     transition-delay: .5s;
-    transition-duration: .5;
+    transition-duration: 1s;
     transition-timing-function: ease-out();
-    transform: translateX(-10px)translateY(-10px);
 }
 
 .About .aboutDetails {
@@ -71,7 +60,6 @@
 	  font-size: 18px;
     padding: 5px;
     border-radius: 5px;
-    color: black;
 }
 
 .aboutDetails .downloadBtn {
@@ -79,7 +67,10 @@
     margin: 1rem 1rem;
     font-size: 18px;
     font-weight: 500;
-    color: crimson;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--fourth-color);
+    color: var(--third-color);
 }
 
 .aboutDetails .socials{

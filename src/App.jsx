@@ -10,18 +10,14 @@ function App() {
 
 	const [menuOpen, setMenuOpen] = useState(false)
 	
-	function taggleMenu() {
-		if(!menuOpen) {
-			setMenuOpen(true)
-		} else {
-			setMenuOpen(false)
-		}
+	function toggleMenu() {
+		!menuOpen ? setMenuOpen(true) : setMenuOpen(false);
 	}
 
   	return (
   		<div className="App">
-			<Header menuOpen ={menuOpen} taggleMenu={taggleMenu}/>
-			<NavBar menuOpen = {menuOpen} taggleMenu = {taggleMenu}/>
+			<Header menuOpen ={menuOpen} toggleMenu={toggleMenu} setMenuOpen={setMenuOpen}/>
+			<NavBar menuOpen = {menuOpen} toggleMenu = {toggleMenu} setMenuOpen={setMenuOpen}/>
 			<Backdrop menuOpen = {menuOpen} setMenuOpen={setMenuOpen}/>
 			<Containts menuOpen = {menuOpen}/>
   		</div>

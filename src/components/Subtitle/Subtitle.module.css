@@ -25,7 +25,8 @@
 
 .header .title {
     opacity: 0;
-	color: var(--primary-color);
+	  /*color: var(--primary-color);*/
+    color: var(--fourth-color);
     transform: translateX(20px) translateY(-20px);
     transition: opacity ease-out .5s, transform ease-out .5s;
     transition-delay: .25s;
@@ -60,7 +61,8 @@
     height: 5px;
     border-radius: 5px;
     margin: auto 10px;
-    background-color: var(--primary-color);
+   /* background-color: var(--primary-color);*/
+    background-color: var(--secondary-color);
     opacity: 0;
     transition: all ease-in-out .5s;
     transition-delay: .5s;

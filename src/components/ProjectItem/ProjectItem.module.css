@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--third-color);
+    background-color: var(--primary-color);
     /*box-shadow: 0 0 5px var(--primary-color);*/
     overflow: hidden;
 }
@@ -54,14 +54,14 @@
     padding: .5rem;
     border-radius: 10px;
     z-index: 1;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     background-color: var(--third-color);
 }
 
 .projectItem h3 {
     margin: .5rem;
     text-transform: uppercase;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 

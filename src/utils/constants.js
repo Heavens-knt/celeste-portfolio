@@ -31,7 +31,7 @@ const socials = [
     }
 ]
 
-const listItem = [
+const list = [
     {
         name : "Home",
         path: "#home"
@@ -58,4 +58,4 @@ const listItem = [
     }
 ]
 
-export {socials}
+export {socials, list}

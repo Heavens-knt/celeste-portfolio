@@ -3,14 +3,11 @@
     height: auto;
     position: absolute;
     top: 70px;
-    background-color: rgba(0, 50, 50, .2);
+   /*  background-color: rgba(0, 50, 50, .2); */
 }
 
-.init-style {
-    width: 95%;
-    height: 500px;
-    margin: 2rem auto;
-    background-color: var(--secondary-color);
-    z-index: 10;
-    border-radius: 10px;
+
+.mainContaints > section {
+    color: #fff;
+    background-color: var(--primary-color);
 }

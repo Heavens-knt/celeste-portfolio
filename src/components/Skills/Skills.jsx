@@ -17,15 +17,15 @@ function Skills() {
 					<section className={styles.left}>
 						<img src={htmlCssImage} alt="" />
             
-            	<SkillsDetails name="html" pourcent="70%" />
-            	<SkillsDetails name="css"  pourcent="55%"/>
+            	<SkillsDetails name="html" pourcent="70" />
+            	<SkillsDetails name="css"  pourcent="55"/>
             
           </section>
           <section className={styles.right}>
 						<img src={jsImage} alt="" />
           
-							<SkillsDetails name="javascript" pourcent="50%"/>
-              <SkillsDetails name="mongodb" pourcent="30%"/>
+							<SkillsDetails name="javascript" pourcent="50"/>
+              <SkillsDetails name="mongodb" pourcent="30"/>
             
           </section>
         </section>

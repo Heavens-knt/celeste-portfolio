@@ -1,8 +1,13 @@
 :root {
-  --primary-color: #00796B;
+  /*--primary-color: #00796B;
   --secondary-color: #E0F2F1;
-  /*--third-color: #4DB6AC;*/
+  /*--third-color: #4DB6AC;
   --third-color: darkcyan;
+  --primary-color: #1A2C79;*/
+  --primary-color: #1A237E;
+  --secondary-color: #E80566;
+  --third-color: #FF8D68;
+  --fourth-color: #F4EABC;
 }
 
 *, *::after, *::before {
@@ -13,7 +18,7 @@
 }
 
 a {
-  color: initial;
+  color: var(--third-color);
   text-decoration: none;
 }
 
@@ -40,7 +45,7 @@ body {
   border-radius: 10px;
   margin: 2rem auto;
   box-shadow: 0 0 5px black;
-  background-color: var(--secondary-color);
+ /*  background-color: var(--secondary-color); */
 }
 
 #html::before, #css::before,  #javascript::before, #mongodb::before{ 
@@ -50,17 +55,17 @@ body {
     left: 0;
     height: 100%;
     border-radius: 5px;
-    background-color: crimson;
+    background-color: var(--secondary-color);
 }
 
 @keyframes progressBar-html {
-	from {width: 0%;}
-    to {width: 60%;}
+    from {width: 0%;}
+    to {width: 70%;}
 } 
 
 @keyframes progressBar-css {
 	from {width: 0%;}
-    to {width: 55%;}
+  to {width: 55%;}
 } 
 
 @keyframes progressBar-js {
@@ -75,25 +80,25 @@ body {
 
 #html::before {
     width: 70%;
-    animation: progressBar-html .5s ease-in-out .2s;
+    animation: progressBar-html 3s ease-in-out .2s;
     animation-fill-mode: backwards;
 }
 
 #css::before {
     width: 55%;
-    animation: progressBar-css .5s ease-in-out .2s;
+    animation: progressBar-css 3s ease-in-out .2s;
     animation-fill-mode: backwards;
 }
 
 #javascript::before {
     width: 50%;
-    animation: progressBar-js .5s ease-in-out .2s;
+    animation: progressBar-js 3s ease-in-out .2s;
     animation-fill-mode: backwards;
 }
 
 #mongodb::before {
     width: 30%;
-    animation: progressBar-mongo .5s ease-in-out .2s;
+    animation: progressBar-mongo 3s ease-in-out .2s;
     animation-fill-mode: backwards;
 }
 

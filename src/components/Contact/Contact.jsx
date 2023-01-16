@@ -62,7 +62,7 @@ function Contact() {
     }
 	}
   	return (
-    	<section className={`${styles.Contact} init-style`}>
+    	<section className={`${styles.Contact} init-style`} id="contact">
 			<Subtitle title="Contact" subtitle="contact us" />
 
     		<section className={styles.form}>

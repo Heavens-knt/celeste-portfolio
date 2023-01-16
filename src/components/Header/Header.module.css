@@ -5,8 +5,8 @@
     padding: .2rem;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--fourth-color);
     position: fixed;
     z-index: 4;
 }
@@ -53,7 +53,7 @@
     height: 5px;
     margin: .2em auto;
     border-radius: 5px;
-    background-color: black;
+    background-color: var(--fourth-color);
     transition-duration: 1.2s;
 }
 
