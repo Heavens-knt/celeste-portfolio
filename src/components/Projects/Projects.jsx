@@ -12,8 +12,9 @@ function Projects() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laborum a provident veniam, eum ullam deserunt! Accusamus reprehenderit eligendi blanditiis, quo molestias et similique voluptate, aliquam numquam, delectus enim qui.</p>
         </section>
         <section className={styles.projectsItems}>
-          <ProjectItem imgSrc={stopwhatchImg} name="stopwhatch"/>
-          <ProjectItem imgSrc={weatherImg} name="weather-app"/>
+          <ProjectItem link="https://github.com/Heavens-knt/stopwatch-js" imgSrc={stopwhatchImg} name="stopwhatch"/>
+          <ProjectItem link="https://github.com/Heavens-knt/WeatherAPP" imgSrc={weatherImg} name="weather-app"/>
+          <ProjectItem link="https://github.com/Heavens-knt/celeste-portfolio" imgSrc={weatherImg} name="heavens-portfolio"/>
         </section>
     </section>
   )

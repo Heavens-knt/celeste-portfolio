@@ -17,7 +17,7 @@ const socials = [
     {
         name: "facebook",
         icon: "/images/socials/icons8-facebook-480.svg",
-        link: "https://www.facebook.com/celest.knt?mibextid=ZbWKwL"
+        link: "https://www.facebook.com/profile.php?id=100068791806393"
     },
     {
         name: "youtube",

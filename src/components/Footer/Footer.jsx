@@ -13,7 +13,7 @@ function Footer() {
         {socials.map(social => <ListItem icon={social.icon} href={social.link} alt={social.name} />)}
       </div>
     	<div className = {styles.copyright}>
-        <p>Created by <span>knt Bukenya Céleste</span>  &copy; {year} All rights reserved!</p>
+        <p>Created by <span>Heavens - Knt</span>  &copy; {year} All rights reserved!</p>
       </div>
   	</footer>
   )

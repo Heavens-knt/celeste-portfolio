@@ -17,7 +17,7 @@ function About() {
       typeSpeed: 200,
       backSpeed: 100,
       backDelay: 2000,
-      strings: ["Développeur Web", "Programmeur"],
+      strings: ["Web Developer", "Programmer"],
     });
   }, []);
 
@@ -44,13 +44,13 @@ function About() {
         <section className={styles.content}>
         	{/*<img src={img} alt="my-image" />*/}
           <section className={styles.above} ref={target}>
-            <h2 className={isInterset ? styles.active : ""}>Knt Bukenya Celeste</h2>
-            <p className={`${styles.aboutSkills} ${isInterset ? styles.active : ''}`}>Im a Web <span ref={myTarget}></span></p>
+            <h2 className={isInterset ? styles.active : ""}>Heavens - Knt</h2>
+            <p className={`${styles.aboutSkills} ${isInterset ? styles.active : ''}`}>I'm a <span ref={myTarget}></span></p>
           </section>
         </section>
         <section className={styles.aboutDetails}>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis alias perferendis eum ipsum maxime nostrum ex rem unde provident reiciendis eligendi doloremque sit beatae, praesentium ipsa iure magni blanditiis! Reiciendis?</p>
-          <button className={styles.downloadBtn}>Download CV</button>
+          <a href={fbIcon} download className={styles.downloadBtn}>Download CV</a>
           <section className={styles.socials}>
             {/*<a href="#"><img src={fbIcon} alt="fb-icon" /></a>
             <a href="#"><img src={fbIcon} alt="" /></a>

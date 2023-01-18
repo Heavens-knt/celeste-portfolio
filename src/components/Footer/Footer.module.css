@@ -31,7 +31,7 @@
 }
 
 .footer .copyright p span {
-    color: black;
+    color: var(--primary-color);
     font-weight: 500;
     font-size: 18px;
 }

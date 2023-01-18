@@ -39,7 +39,7 @@
 
 .navbar ul a {
     font-size: 30px;
-    color: var(--secondary-color);
+  
 }
 
 .navbar ul a {
@@ -85,7 +85,6 @@
     height: 35px;
     display: grid;
     place-content: center;
-    background-color: var(--third-color);
     border-radius: 5px;
     box-shadow: 0 0 5px var(--third-color);
 }
