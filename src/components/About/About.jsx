@@ -5,9 +5,22 @@ import { socials } from "../../utils/constants"
 import ListItem from "../ListItem/ListItem"
 import fbIcon from "../../assets/icons8-facebook-1.svg"
 import { useEffect, useRef, useState } from "react"
+import { init } from "ityped"
 
 function About() {
+  
   const target = useRef()
+  const myTarget = useRef()
+  useEffect(() => {
+    init(myTarget.current, {
+      showCursor: true,
+      typeSpeed: 200,
+      backSpeed: 100,
+      backDelay: 2000,
+      strings: ["Développeur Web", "Programmeur"],
+    });
+  }, []);
+
   const [isInterset, setIsInterset] = useState(false)
   const obeserverOptions = {
     threshold: 1,
@@ -32,7 +45,7 @@ function About() {
         	{/*<img src={img} alt="my-image" />*/}
           <section className={styles.above} ref={target}>
             <h2 className={isInterset ? styles.active : ""}>Knt Bukenya Celeste</h2>
-            <p className={`${styles.aboutSkills} ${isInterset ? styles.active : ''}`}>Im a Web Developer, Designer</p>
+            <p className={`${styles.aboutSkills} ${isInterset ? styles.active : ''}`}>Im a Web <span ref={myTarget}></span></p>
           </section>
         </section>
         <section className={styles.aboutDetails}>

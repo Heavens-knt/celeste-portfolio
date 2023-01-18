@@ -30,7 +30,7 @@ function Containts({menuOpen}) {
         <Services />
         <Projects /> 
         <Contact />
-        <Footer />
+        {/*<Footer />*/}
     </section>
   )
 }
