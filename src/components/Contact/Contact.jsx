@@ -39,7 +39,6 @@ function Contact() {
   }
 	const handleSubmit = async (e) => {
 		e.preventDefault();
-    alert(format(formRef.current));
 
     if(format(formRef.current)) {
       try {
@@ -68,12 +67,11 @@ function Contact() {
     		<section className={styles.form}>
 				  <form action="" ref={formRef}>
             <Error errorMessage={errorMessage} toggleError={toggleError} />
-        		<input type="text" name="firstName" id="fullName" placeholder='First Name' onChange={handleChange}/>
-					  <input type="text" name="lastName" id="lastName" placeholder='Last Name' onChange={handleChange}/>
+        		<input type="text" name="name" id="fullName" placeholder='Full Name' onChange={handleChange}/>
         		<input type="email" name="email" id="email" placeholder='Email' onChange={handleChange}/>
             <input type="number" name="phoneNumber" placeholder='Phone Number' onChange={handleChange}/>
         		<input type="text" name="subject" id="subject" placeholder='Subject' onChange={handleChange}/>
-        		<textarea name="message" id="message" cols="30" rows="10" onChange={handleChange}></textarea>
+        		<textarea name="message" id="message" cols="30" rows="10" placeholder='message' onChange={handleChange}></textarea>
         		<button type="submit" onClick={handleSubmit}>Submit</button>
       		</form>
     		</section>

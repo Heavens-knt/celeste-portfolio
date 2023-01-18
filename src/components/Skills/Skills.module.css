@@ -7,6 +7,10 @@
 
 .Skills .details p {
     margin: .1rem;
+    line-height: 26px;
+    font-size: 18px;
+    padding: .5rem;
+    color: var(--fourth-color);
 }
 
 .Skills .progress {
@@ -28,7 +32,7 @@
 }
 
 .Skills .progress .left img, .Skills .progress .right img {
-	width: 100%;
+	  width: 100%;
     height: auto;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;

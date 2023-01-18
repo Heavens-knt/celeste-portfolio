@@ -39,7 +39,7 @@
 
 .navbar ul a {
     font-size: 30px;
-  
+    color: var(--fourth-color);  
 }
 
 .navbar ul a {

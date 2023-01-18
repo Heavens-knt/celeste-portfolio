@@ -10,6 +10,7 @@
     background-image: url(../../assets/imag.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid var(--fourth-color);
     border-radius: 15px;
 }
 

@@ -10,8 +10,7 @@ function Skills() {
     <section className={`${styles.Skills} init-style`} id="skills">
         <Subtitle title="Skills" subtitle="What i know"/>
         <section className={styles.details}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, unde. Sequi, cupiditate id quisquam perferendis molestias quia quae hic consectetur quos! Totam a commodi libero deserunt ad obcaecati sint nobis.</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis numquam, doloremque ipsa eveniet commodi sed optio adipisci magni repellendus? Deleniti distinctio possimus modi dolorum, commodi nemo fugiat nobis dolores officiis?</p>
+          <p>I already know <strong>HTML5</strong>, a bit of <strong>CSS</strong> and <strong>JavaScript</strong> on the <strong>client side</strong> and also on the <strong>server side</strong>.  And without forgetting the <strong>MongoDB</strong> Database Management System. <br></br><br></br>Being still a beginner in Web development, I always continue to learn more to acquire even more knowledge.</p>
         </section>
         <section className={styles.progress}>
 					<section className={styles.left}>
