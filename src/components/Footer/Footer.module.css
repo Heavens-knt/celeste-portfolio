@@ -4,7 +4,7 @@
     padding: 1rem;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    background-color: #112;
+    background-color: var(--bg-color);
 }
 
 .footer .socials {

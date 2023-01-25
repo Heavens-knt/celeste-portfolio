@@ -2,6 +2,7 @@
   --primary-color: #416AFF;
   --secondary-color: #c9ff41;
   --third-color: #ff7741;
+  --bg-color: #112;
 }
 
 *, *::after, *::before {

@@ -8,6 +8,6 @@
 
 
 .mainContaints > section:not(:first-child) {
-  background-color: #112;
+  background-color: var(--bg-color);
   color: white;
 }
