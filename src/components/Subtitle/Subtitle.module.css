@@ -21,12 +21,12 @@
     align-items: center;
     flex-flow: column nowrap;
     gap: .5rem;
+    z-index: 10;
 }
 
 .header .title {
     opacity: 0;
-	  /*color: var(--primary-color);*/
-    color: var(--fourth-color);
+	  color: var(--primary-color);
     transform: translateX(20px) translateY(-20px);
     transition: opacity ease-out .5s, transform ease-out .5s;
     transition-delay: .25s;
@@ -40,7 +40,7 @@
 
 .header .subtitle {
     font-size: 20px;
-    color: var(--third-color);
+    color: var(--primary-color);
     display: flex;
     align-items: center;
     text-transform: capitalize;
@@ -61,8 +61,7 @@
     height: 5px;
     border-radius: 5px;
     margin: auto 10px;
-   /* background-color: var(--primary-color);*/
-    background-color: var(--secondary-color);
+    background-color: var(--third-color);
     opacity: 0;
     transition: all ease-in-out .5s;
     transition-delay: .5s;

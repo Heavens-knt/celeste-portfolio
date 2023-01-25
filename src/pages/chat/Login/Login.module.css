@@ -1,0 +1,20 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.login .form {
+  width: 100%;
+  height: calc(100vh - 70px);
+  position: absolute;
+  top: 70px;
+}
+
+.login .form form {
+  width: 80%;
+  background-color: black;
+  height: 100%;
+  margin: .5rem auto;
+  padding: 1rem;
+}

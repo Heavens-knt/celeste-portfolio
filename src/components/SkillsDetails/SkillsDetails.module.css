@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    color: var(--primary-color);
+    color: white;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: .2rem;

@@ -5,17 +5,29 @@
     padding: .2rem;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--secondary-color);
-    color: var(--fourth-color);
+    background-color: #000;
+    color: white;
     position: fixed;
     z-index: 4;
 }
 
 .Header .logo {
     width: auto;
+    background-image: linear-gradient(45deg, var(--third-color), var(--secondary-color));
+    background-size: 100%;
+    -webkit-background-clip: text; 
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-fill-color: transparent;
     text-transform: capitalize;
 }
 
+.Header .logo .primary {
+  color: var(--secondary-color);
+  font-size: inherit;
+}
 .menu {
     width: 75%;
     height: 100%;
@@ -53,7 +65,7 @@
     height: 5px;
     margin: .2em auto;
     border-radius: 5px;
-    background-color: var(--fourth-color);
+    background-color: var(--secondary-color);
     transition-duration: 1.2s;
 }
 

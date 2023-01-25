@@ -10,7 +10,7 @@ function App() {
 
 	const [menuOpen, setMenuOpen] = useState(false)
 	
-	function toggleMenu() {
+  function toggleMenu() {
 		!menuOpen ? setMenuOpen(true) : setMenuOpen(false);
 	}
 

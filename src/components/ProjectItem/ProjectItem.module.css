@@ -9,13 +9,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--fourth-color);
-    /*box-shadow: 0 0 5px var(--primary-color);*/
+    box-shadow: 0 0 6px var(--third-color);
     overflow: hidden;
 }
 
 /*sections red and blue that rotate behind the container*/
-.projectItem::after, .projectItem::before {
+/*.projectItem::after, .projectItem::before {
     content: '';
     position: absolute;
     width: 600px;
@@ -31,11 +30,11 @@
 	* set the bg-color for the rotated section 
     * and delay the animatin so that their positions will be opposite
 */
-.projectItem::before {
+/*.projectItem::before {
     animation-delay: -2s;
     background: conic-gradient(transparent, transparent, transparent, #0a33ff);
 
-}
+}*/
 
 /*the rotation animation*/
 

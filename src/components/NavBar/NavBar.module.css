@@ -1,7 +1,7 @@
 .navbar {
     width: 80vw;
     height: calc(100vh - 70px);
-    background: var(--primary-color);
+    background: #112;
     position: fixed;
     top: 70px;
     transform: translateX(-80vw);
@@ -17,7 +17,7 @@
     display: grid;
     place-items: center;
     margin: 1rem auto;
-    background-color: var(--third-color);
+    background-color: var(--secondary-color);
 }
 
 .navbar .listIcon img {
@@ -39,7 +39,7 @@
 
 .navbar ul a {
     font-size: 30px;
-    color: var(--fourth-color);  
+    color: var(--primary-color);  
 }
 
 .navbar ul a {

@@ -1,4 +1,3 @@
-import {useState} from 'react'
 import styles from './Footer.module.css';
 import { socials } from '../../utils/constants';
 import ListItem from '../ListItem/ListItem';

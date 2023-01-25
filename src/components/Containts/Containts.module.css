@@ -7,7 +7,7 @@
 }
 
 
-.mainContaints > section {
-    color: #fff;
-    background-color: var(--primary-color);
+.mainContaints > section:not(:first-child) {
+  background-color: #112;
+  color: white;
 }

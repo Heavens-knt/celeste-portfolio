@@ -7,7 +7,7 @@ function Header({menuOpen,toggleMenu, setMenuOpen}) {
 	
   return (
     <div className={style.Header}>
-        <div className={style.logo}><h1>Heaven's.</h1></div>
+        <div className={style.logo}><h1>Heaven<span className={style.primary}>'s.</span></h1></div>
         <nav className={style.menu}>
 
           <menu className={style.ulMenu}>
