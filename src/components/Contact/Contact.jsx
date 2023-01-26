@@ -1,7 +1,5 @@
 import React, { useRef, useState } from 'react'
-//import { useState } from 'react'
 import Subtitle from '../Subtitle/Subtitle'
-// import ErrorMessage from "../ErrorMessage/ErrorMessage"
 import styles from "./Contact.module.css"
 
 
@@ -42,7 +40,7 @@ function Contact() {
 
     if(format(formRef.current)) {
       try {
-        const response = await fetch("http://localhost:3000/user/message", {
+        const response = await fetch("http://localhost:3000/", {
           method: "post",
           mode: "cors",
           headers: {
@@ -67,7 +65,7 @@ function Contact() {
     		<section className={styles.form}>
 				  <form action="" ref={formRef}>
             <Error errorMessage={errorMessage} toggleError={toggleError} />
-        		<input type="text" name="name" id="fullName" placeholder='Full Name' onChange={handleChange}/>
+        		<input type="text" name="name" id="fullName" placeholder='Name' onChange={handleChange}/>
         		<input type="email" name="email" id="email" placeholder='Email' onChange={handleChange}/>
             <input type="number" name="phoneNumber" placeholder='Phone Number' onChange={handleChange}/>
         		<input type="text" name="subject" id="subject" placeholder='Subject' onChange={handleChange}/>

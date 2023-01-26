@@ -1,12 +1,8 @@
 .mainContaints {
     width: 100vw;
     height: auto;
-    /*position: absolute;
-    top: 70px;
-   /*  background-color: rgba(0, 50, 50, .2); */
 }
-
-
+ 
 .mainContaints > section:not(:first-child) {
   background-color: var(--bg-color);
   color: white;

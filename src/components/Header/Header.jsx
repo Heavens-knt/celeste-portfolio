@@ -1,4 +1,3 @@
-//import { useState } from "react"
 import { list } from "../../utils/constants"
 import Li from "../Li/Li"
 import style from "./Header.module.css"
