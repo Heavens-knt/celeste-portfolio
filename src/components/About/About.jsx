@@ -2,7 +2,7 @@ import Subtitle from "../Subtitle/Subtitle"
 import styles from "./About.module.css"
 import { socials } from "../../utils/constants"
 import ListItem from "../ListItem/ListItem"
-import fbIcon from "../../assets/icons8-facebook-1.svg"
+import fbIcon from "../../assets/imag.jpg"
 import { useEffect, useRef, useState } from "react"
 import { init } from "ityped"
 

@@ -6,6 +6,7 @@ function ProjectItem({name, link}) {
         	<div className={styles.container}>
             <h3>{name}</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, soluta!</p> 
+            <a href={link} target="_blank" className={styles.btn}>GitHub Repo</a>
           </div>
         </a>
   )
